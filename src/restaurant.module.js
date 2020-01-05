@@ -35,7 +35,7 @@ RegistrationController.$inject = ['$http','InfoService'];
 function RegistrationController($http,InfoService) {
   var reg = this;
 
-  reg.completed = "COMPLETED";
+
   reg.submit = function () {
 
         console.log("clicked");
@@ -51,7 +51,6 @@ function RegistrationController($http,InfoService) {
 
               var items = response.data;
 
-              console.log(items);
 
 
 
