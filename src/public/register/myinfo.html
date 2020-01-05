@@ -1,0 +1,30 @@
+<div ng-controller = "InfoController as info">
+
+  <div ng-if= "info.completed">
+    First Name :
+    <span>   {{info.first}}</span> 
+    </br>
+    Last Name :
+    <span>   {{info.last}}</span>
+    </br>
+    EMAIL :
+    <span>   {{info.email}}</span>
+    </br>
+    PHONE :
+    <span>   {{info.phone}}</span>
+    </br>
+    MENUITEM :
+    <span>  {{info.menuitem}}</span>
+
+ </div>
+
+<div ng-if= "info.notregistered">
+
+
+      <a ui-sref="public.register">
+
+
+  </ul>
+<span > not registed yet click here to Sign Up</span>
+</div>
+ </div>
